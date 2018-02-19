@@ -1,0 +1,126 @@
+@import 'vendor/bootstrap';
+
+//Variables
+$radius: 10px;
+$form-font: "Arial";
+$form-size: 10px;
+$gradientRed: linear-gradient(#ffa87a, #ff0000);
+
+.border-right {
+  border-right: 1.5px solid;
+}
+
+.btn-submit{
+  background: linear-gradient(#808080, #000000);
+  font-size: $form-size;
+  font-family: $form-font;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.div-form {
+  background: linear-gradient(#d9e021, #736357);
+  width: 230px;
+}
+
+.form-content {
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.form-content input{
+  width: 90px;
+  height: 20px;
+}
+
+.menu {
+  width: 122px;
+  margin-left: 172px;
+  background: $gradientRed;
+}
+
+.menu ul {
+  padding-left: 25px;
+}
+
+.menu-button {
+  color: white;
+  padding-left: 85px;
+  cursor: pointer;
+}
+
+.dish-link {
+  text-decoration: none;
+  color: black;
+}
+
+.images {
+  padding-left: 35px;
+  padding-top: 10px;
+  list-style-type: none;
+  width: 300px;
+  float: left;
+}
+
+.images img {
+  max-width: 200px;
+  padding-bottom: 5px;
+}
+
+.data {
+  width: 480px;
+  float: left;
+}
+
+.data h2 {
+  border-bottom: 2px solid black;
+}
+
+.recommended {
+  float: right;
+}
+
+.text {
+  padding-top: 15px;
+}
+
+.sections {
+    list-style-type: none;
+    margin: 50px 50px 1px 50px;
+    padding: 0;
+    background: $gradientRed;
+    display: flex;
+    width: 50%;
+    font-size: 14px;
+    font-family: "Georgia";
+    border-bottom: 1.5px solid;
+}
+.sections:first-child {
+  border-bottom: 20px;
+	border-bottom-left-radius: $radius;
+}
+
+.sections:last-child {
+	border-top-right-radius: $radius;
+}
+
+.sections li {
+  flex: 1;
+}
+
+.sections>li>span {
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.form-span {
+  font-size: $form-size;
+  font-family: $form-font;
+  text-align: initial;
+  padding: 1px 0px 8px 5px;
+  color: black;
+}
